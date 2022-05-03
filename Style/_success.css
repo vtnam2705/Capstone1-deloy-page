@@ -1,0 +1,306 @@
+/* Dark theme - start */
+#success{
+    background-color: var(--dark-blue);
+}
+
+.success__container{
+    width: 72%;
+}
+
+.success__wrapper{
+    align-items: center;
+}
+
+.success__img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.success__content .success__heading{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+}
+
+.success__content .success__title{
+    width: 80%;
+    margin-left: 0;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.success__progress{
+    margin-bottom: 30px;
+}
+
+.success__progress .success__progress--title{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    color:#EEEEEE;
+    margin-left: 0;
+}
+
+.success__progress .success__progress--bar{
+    background-color: #100F19;
+    position: relative;
+}
+
+.success__progress .success__progress--bar .progress{
+    height: 4px;
+    margin-left: 0;
+}
+
+.success__progress .success__progress--bar .progress::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    top: 50%;
+    transform: translate(-19%, -50%);
+}
+
+.success__progress .success__progress--bar .progress::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid var(--border-color);
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Dark theme - end */
+/* ---------------------------------------------------------------------------------------------- */
+/* Light theme - start */
+.light#success{
+    background-color: var(--white-color);
+}
+
+.light .success__container{
+    width: 72%;
+}
+
+.light .success__wrapper{
+    align-items: center;
+}
+
+.light .success__img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.light .success__content .success__heading{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+}
+
+.light .success__content .success__title{
+    width: 80%;
+    margin-left: 0;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3F3A64;
+}
+
+.light .success__progress{
+    margin-bottom: 30px;
+}
+
+.light .success__progress .success__progress--title{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    color:#3F3A64;
+    margin-left: 0;
+}
+
+.light .success__progress .success__progress--bar{
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.light .success__progress .success__progress--bar .progress{
+    height: 4px;
+    margin-left: 0;
+}
+
+.light .success__progress .success__progress--bar .progress::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    top: 50%;
+    transform: translate(-19%, -50%);
+}
+
+.light .success__progress .success__progress--bar .progress::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid var(--border-color);
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Light theme - end */
+
+
+/* bar-1 */
+.success__progress .success__progress--bar .progress.bar-1{
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+.success__progress .success__progress--bar .progress.bar-1::before{
+    left: 80%;
+}
+
+.success__progress .success__progress--bar .progress.bar-1::after{
+    left: 80%;
+    border-color: #61fded;
+}
+
+
+/* bar-2 */
+.success__progress .success__progress--bar .progress.bar-2{
+    color: #eece90;
+    background-color: #d45529;
+    background-image: linear-gradient(-224deg, #d45529, #eece90);
+}
+
+.success__progress .success__progress--bar .progress.bar-2::before{
+    left: 95%;
+}
+
+.success__progress .success__progress--bar .progress.bar-2::after{
+    left: 95%;
+    border-color: #eece90;
+}
+
+
+/* bar-3 */
+.success__progress .success__progress--bar .progress.bar-3{
+    color: #5c51ff;
+    background-color: #f646a9;
+    background-image: linear-gradient(-224deg, #f646a9, #5c51ff);
+}
+
+.success__progress .success__progress--bar .progress.bar-3::before{
+    left: 60%;
+}
+
+.success__progress .success__progress--bar .progress.bar-3::after{
+    left: 60%;
+    border-color: #5c51ff;
+}
+
+
+/* bar-4 */
+.success__progress .success__progress--bar .progress.bar-4{
+    color: #e5529a;
+    background-color: #e77654;
+    background-image: linear-gradient(-224deg, #e77654, #e5529a);
+}
+
+.success__progress .success__progress--bar .progress.bar-4::before{
+    left: 85%;
+}
+
+.success__progress .success__progress--bar .progress.bar-4::after{
+    left: 85%;
+    border-color: #e5529a;
+}
+
+
+/* Responsive */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .success__container{
+        width: 90%;
+    }
+
+    .success__content .success__title{
+        width: 100%;
+        font-size: 28px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .success__container{
+        width: 90%;
+    }
+
+    .success__content .success__title{
+        width: 100%;
+        font-size: 29px;
+    }
+
+    /* Light theme */
+    .light .success__container{
+        width: 90%;
+    }
+
+    .light .success__content .success__title{
+        width: 100%;
+        font-size: 29px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .success__container{
+        width: 90%;
+    }
+
+    .success__content .success__title{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    /* Light theme */
+    .light .success__container{
+        width: 90%;
+    }
+
+    .light .success__content .success__title{
+        width: 100%;
+        font-size: 25px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .success__content .success__title{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* Light theme */
+    .light .success__content .success__title{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

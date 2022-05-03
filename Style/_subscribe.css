@@ -1,0 +1,62 @@
+#subscribe{
+    background-image: url(https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/map.png);
+    background-color: var(--dark-blue);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe__info{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.subscribe__info .header-section .title-big{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.subscribe__info .header-section p{
+    color: var(--font-color);
+}
+
+.subscribe__info .subscribe{
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+    max-width: 550px;
+    margin: auto;
+}
+
+.subscribe__info .subscribe .input-group-text{
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 0 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.subscribe__info .subscribe input{
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    width: 100%;
+    border-radius: 0;
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* border-color: rgba(255, 255, 255, 0.15); */
+    border-left: none;
+}
+
+.subscribe__info .subscribe button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 25px;
+    font-size: 16px;
+}

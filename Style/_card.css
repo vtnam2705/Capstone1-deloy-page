@@ -1,0 +1,240 @@
+/* Dark theme - start */
+#card{
+    background-color: var(--dark-blue);
+}
+
+.card__container{
+    width: 72%;
+}
+
+.card__heading{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+}
+
+.card__title{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.card{
+    border: 1px solid var(--border-color);
+}
+
+.card .card-img-link{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.card .card-img-link img{
+    transition: ease-in-out .5s;
+}
+
+.card .card-img-link:hover img{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    margin: 0;
+    background-color: var(--dark-blue);
+}
+
+.card .card-body .card-title{
+    margin: 0 0 12px;
+}
+
+.card .card-body .card-title a{
+    font-weight: 400;
+    font-size: 17px;
+    color: #999;
+}
+
+.card .card-body .card-text{
+    margin: 0;
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--heading-color);
+    transition: all .5s;
+}
+
+.card .card-body .card-text:hover{
+    color: var(--green-color);
+}
+
+.card .card-footer{
+    margin: 0;
+    background-color: var(--dark-blue);
+    border-top: 1px solid var(--border-color);
+}
+
+.card .card-footer .card-author{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+}
+
+.card .card-footer .card-author .blog-meta{
+    padding: 0;
+    margin: 0;
+}
+
+.card .card-footer .card-author .blog-meta .meta-value{
+    color: var(--font-color);
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+.card .card-footer .card-author .blog-meta a{
+    font-size: 16px;
+    color: var(--heading-color);
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.card .card-footer .card-author .date p{
+    margin: 0;
+    font-size: 15px;
+    color: var(--font-color);
+}
+/* Dark theme - end */
+/* --------------------------------------------------------------------------------- */
+
+/* Light theme - start */
+.light#card{
+    background-color: var(--white-color);
+}
+
+.light .card__title{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3F3A64;
+}
+
+.light .card{
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.light .card .card-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    margin: 0;
+    background-color: transparent;
+}
+
+.light .card .card-body .card-text{
+    margin: 0;
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #3F3A64;
+    transition: all .5s;
+}
+
+.light .card .card-footer{
+    margin: 0;
+    background-color: transparent;
+    /* border-top: 1px solid var(--border-color); */
+}
+
+.light .card .card-footer .card-author .blog-meta a{
+    font-size: 16px;
+    color: #3F3A64;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.light .card .card-footer .card-author .date p{
+    margin: 0;
+    font-size: 15px;
+    color: #7e7d7d;
+}
+/* Light theme - end */
+/* Responsive */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .card__container{
+        width: 90%;
+    }
+
+    .card-deck{
+        gap: 15px;
+    }
+
+    /* Light theme */
+    .light .card__container{
+        width: 90%;
+    }
+
+    .light .card-deck{
+        gap: 15px;
+    }
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card__container{
+        width: 90%;
+    }
+
+    .card-deck{
+        gap: 15px;
+    }
+
+    /* Light theme */
+    .light .card__container{
+        width: 90%;
+    }
+
+    .light .card-deck{
+        gap: 15px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card__container{
+        width: 90%;
+    }
+
+    .card-deck{
+        gap: 15px;
+    }
+
+    /* Light theme */
+    .light .card__container{
+        width: 90%;
+    }
+
+    .light .card-deck{
+        gap: 15px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
